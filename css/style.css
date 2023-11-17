@@ -228,7 +228,11 @@ body {
         align-items: center;
     }
 }
-
+@media (min-width:624px) {
+    .btn.btn-danger.applebtn.download-btns.text-uppercase {
+        margin-right: 2rem;
+    }
+}
 @media (max-width:991px) {
     .description-section .row.align-items-center {
         gap: 2rem;
